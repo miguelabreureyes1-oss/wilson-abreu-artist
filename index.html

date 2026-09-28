@@ -1,1 +1,81 @@
-Cambio nombre a index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wilson Abreu | Artista Visual Dominicano</title>
+
+    <meta name="description" content="Sitio web oficial de Wilson Abreu, artista visual dominicano dedicado a la pintura y el dibujo.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #111, #242424);
+        }
+
+        header h1 {
+            font-size: clamp(42px, 10vw, 75px);
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        header h2 {
+            color: #ccc;
+            font-size: 22px;
+            font-weight: normal;
+            margin: 10px 0;
+        }
+
+        header p {
+            color: #aaa;
+            max-width: 600px;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 13px 28px;
+            background: white;
+            color: #111;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .boton:hover {
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 70px 20px;
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        section h2 {
+            font 
